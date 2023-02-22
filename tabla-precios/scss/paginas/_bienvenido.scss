@@ -1,0 +1,12 @@
+#root{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--color-fondo);
+
+    .titulo{
+        color: var(--color-blanco);
+        font-size: 2rem;/* 32/16 */
+        padding: 3.12rem 0; /* 50/16 */
+        text-align: center;
+    }
+}

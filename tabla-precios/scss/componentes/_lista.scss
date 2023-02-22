@@ -1,0 +1,15 @@
+.lista{
+    text-align: left;
+    margin: 1.25rem 0;/* 20/16 */
+    color: var(--color-blanco-200);
+    .item{
+        margin: .93rem 0;/* 15/16 */
+
+        &::before{
+            content: "\2022";
+            color: var(--color-tomate);
+            font-weight: bold;
+            margin-right: .5rem;/* 8/16 */
+        }
+    }
+}

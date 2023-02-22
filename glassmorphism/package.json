@@ -1,0 +1,25 @@
+{
+  "name": "glassmorphism",
+  "author": {
+    "name": "Jean Carlos Piguave Alvarado",
+    "email": "piguavejc@gmail.com",
+    "url": "https://devchallenges.io/portfolio/jean-carlos-19"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "config": {
+    "port": ""
+  },
+  "scripts": {
+    "scss":"node-sass -w scss -o src/css",
+    "auditoria-css":"parker src/css/main.css --format=json"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vanilla-tilt": "^1.7.2"
+  }
+}

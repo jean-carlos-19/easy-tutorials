@@ -1,0 +1,4 @@
+.navegacion{
+    margin: 1.87rem auto;/* 30/16 */
+    @include display-flex-x(flex-start,center);
+}

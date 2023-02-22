@@ -1,0 +1,6 @@
+@mixin display-flex-x($principal,$secundario) {
+    display: flex;
+    flex-direction: row;
+    justify-content: $principal;
+    align-items: $secundario;
+}

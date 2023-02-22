@@ -1,0 +1,47 @@
+.navegacion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-oscuro-200);
+    width: 7.5rem; /* 120/16 */
+    padding: .625rem 0; /* 10/16 */
+
+    .logo{
+        width: 3.5rem; /* 56/16 */
+        display: block;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .lista{
+        margin-top: 7.5rem;/* 120/16 */
+        @include display_flex-y(stretch,center);
+
+        &> * + *{
+            margin-top: .625rem;/* 10/16 */
+        } 
+
+        .item {
+            .imagen{
+                padding: .625rem;/* 10/16 */
+                display: block;
+                width: 3.125rem;/* 50/16 */
+                opacity: .5;
+                border-radius: .625rem;/* 10/16 */
+                transition: background-color .5s, opacity .5s;
+                cursor: pointer;
+    
+                &:hover{
+                    opacity: 1;
+                    background-color: var(--color-oscuro-300);
+                }
+
+                &.imagen-activado{
+                    opacity: 1;
+                    background-color: var(--color-oscuro-300);
+                }
+            }
+        }
+    }
+}

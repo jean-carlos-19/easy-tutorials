@@ -1,0 +1,27 @@
+.lista{
+    flex: 1;
+    text-align: right;
+    .item{
+        display: inline-block;
+        margin: 0 1.56rem;/* x=(0) y=(25/16) */
+        .enlace{
+            position: relative;
+            color: $color-oscuro;
+            padding: 0 0.62rem;/* x=(0) y=(10/16) */
+            &::after{
+                content: "";
+                width: 0%;
+                height: .62rem;/* 10/16 */
+                background-color: $color-tomate;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: -3.43rem;/* -55/16 */
+                transition: all .5s;
+            }
+            &:hover:after{
+                width: 100%;
+            }
+        }
+    }
+}

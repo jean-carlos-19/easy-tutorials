@@ -1,0 +1,5 @@
+.banner{
+
+    @include display-flex-x(center,flex-start);
+    margin-top: 5rem;/* 80/16 */
+}

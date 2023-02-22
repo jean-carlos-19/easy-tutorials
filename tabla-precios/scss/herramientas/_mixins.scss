@@ -1,0 +1,5 @@
+@mixin display-grid($minimo, $padding) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minma($minimo,1fr));
+    grid-gap: $padding;
+}

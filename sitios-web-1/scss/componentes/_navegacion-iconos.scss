@@ -1,0 +1,11 @@
+.navegacion-iconos {
+    margin-left: 2.5rem;/* 40/16 */
+    ul{
+        display: flex;
+    }
+    img{
+        height: 1.56rem;/* 25/16 */
+        margin-left: 2.5rem;/* 40/16 */
+        cursor: pointer;
+    }
+}

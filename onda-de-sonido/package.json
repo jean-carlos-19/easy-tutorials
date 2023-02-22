@@ -1,0 +1,28 @@
+{
+  "name": "onda-de-sonido",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Jean Carlos Piguave Alvarado",
+    "email": "piguavejc@gmail.com",
+    "url": "https://devchallenges.io/portfolio/jean-carlos-19"
+  },
+  "scripts": {
+    "scss": "node-sass -w src/scss -o produccion/css --output-style compressed",
+    "prettier": "prettier --write ./*",
+    "ts": "tsc --project tsconfig.json",
+    "tsconfig": "tsc --init",
+    "build": "webpack --mode production",
+    "builddev": "webpack --mode development"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/wavesurfer.js": "^6.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "wavesurfer.js": "^6.2.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

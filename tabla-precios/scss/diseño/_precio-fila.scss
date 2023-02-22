@@ -1,0 +1,8 @@
+.precio-fila{
+    margin: auto;
+    display: grid;
+    width: 90%;
+    max-width: 69.375rem; /* 1110/16 */
+    grid-template-columns: repeat(auto-fit, minmax(15.62rem,1fr));/* 250/16 */
+    grid-gap: 1.56rem;/* 25/16 */
+}

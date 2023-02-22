@@ -1,0 +1,9 @@
+#root{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/back.png");
+    background-position: center;
+    background-size: cover;
+
+    @include display-flex-x(center,center);
+}

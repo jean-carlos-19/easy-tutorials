@@ -1,0 +1,11 @@
+@mixin display_flex-x($principal,$secundario) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $secundario;
+}
+@mixin display_flex-y($principal,$secundario) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $principal;
+    align-items: $secundario;
+}

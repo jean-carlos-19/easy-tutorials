@@ -1,0 +1,96 @@
+.contenedor{
+    margin-left: 7.5rem;/* 120/16 */
+    padding:  0 2.5%;
+
+    .figura{
+        @include display-flex-x(flex-end,center);
+        padding: 1.5625rem 0;/* 25/16 */
+
+        .imagen{
+            width: 1.5625rem;/* 25/16 */
+            margin-left: 2.5rem;/* 40/16 */
+        }
+    }
+
+    .fila{
+        margin-top: .9375rem;/* 15/16 */
+        @include display-flex-x(space-between,flex-start);
+
+        .col-1{
+            flex-basis: 65%;
+
+            .imagen{
+                width: 84%;
+                border-radius: .9375rem;/* 15/16 */
+            }
+
+            .controles{
+                @include display-flex-x(center,center);
+
+                .imagen{
+                    width: 2.5rem;/* 40/16 */
+                    margin: 1.25rem .625rem;/* x=(20/16) y=(10/16) */
+                    cursor: pointer;
+                    transition: transform .5s;
+
+                    &::nth-child(3){
+                        width: 4.375rem;/* 70/16 */
+                    }
+
+                    &:hover{
+                        transform: translateY(-10px);
+                    }
+                }
+            }
+        }
+
+        .col-2{
+            flex-basis: 33%;
+
+            & > * + *{
+                margin-top: 1.25rem;/* 20/16 */
+            }
+
+            .joined{
+                background-color: var(--color-oscuro-200);
+                border-radius:.9375rem;/* 15/16 */
+                padding: 1.875rem 2.5rem 3.125rem;/* x=(30/16) y=(40/16) z=(50/16) */
+                color:var(--color-blanco);
+
+                .figura{
+                    margin-top: 1.25rem;/* 20/16 */
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-gap: 1.25rem;/* 20/16 */
+
+                    .imagen{
+                        width: 66%;
+                        object-fit: cover;
+                        border-radius: .625rem;/* 10/16 */
+                        margin-left: 0;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .invitados {
+                background-color: var(--color-oscuro-200);
+                border-radius:.9375rem;/* 15/16 */
+                padding: 1.875rem 2.5rem 3.125rem;/* x=(30/16) y=(40/16) z=(50/16) */
+                color:var(--color-blanco) ;
+            }
+
+            .figura {
+
+                .imagen{
+                    margin-top: 1.25rem;/* 20/16 */
+                    margin-left: .3125rem;/* 5/16 */
+                    width: 3.125rem;/* 50/16 */
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+      
+    }
+}
