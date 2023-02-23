@@ -21,12 +21,12 @@ class Play {
 
     public agregar_play():void{
         this.boton.removeAttribute("src")
-        this.boton.setAttribute("src","./asset/img/play.png");
+        this.boton.setAttribute("src","./assets/img/play.png");
     }
 
     public agregar_pausa():void{
         this.boton.removeAttribute("src")
-        this.boton.setAttribute("src","./asset/img/pause.png");
+        this.boton.setAttribute("src","./assets/img/pause.png");
     }
     
 }
