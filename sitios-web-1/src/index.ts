@@ -1,0 +1,12 @@
+import "./assets/bell.png";
+import "./assets/facebook.png";
+import "./assets/feature.png";
+import "./assets/instagram.png";
+import "./assets/logo.png";
+import "./assets/menu.png";
+import "./assets/piguaveSof.png";
+import "./assets/pinterest.png";
+import "./assets/search.png";
+import "./assets/twitter.png";
+import "./assets/user.png";
+import "./scss/main.scss"
