@@ -1,42 +1,42 @@
-.tarjeta{
-    width: 90%;
-    max-width: 27.5rem;/* 440/16 */
-    color: $color-blanco;
-    text-align: center;
-    padding: 3.12rem 2.18rem;/* x=(50/16) y=(35/16) */
-    border: 1px solid $color-oscuro-300;
-    background-color: $color-oscuro-200;
-    border-radius: 1rem;/* 16/16 */
-    box-shadow: 0 4px 30px $color-oscuro-200;
-    backdrop-filter: blur(.31rem);/* 5/16 */
+.tarjeta {
+  width: 90%;
+  max-width: 27.5rem; /* 440/16 */
+  color: $color-blanco;
+  text-align: center;
+  padding: 3.12rem 2.18rem; /* x=(50/16) y=(35/16) */
+  border: 1px solid $color-oscuro-300;
+  background-color: $color-oscuro-200;
+  border-radius: 1rem; /* 16/16 */
+  box-shadow: 0 4px 30px $color-oscuro-200;
+  backdrop-filter: blur(0.31rem); /* 5/16 */
+  & > * + * {
+    margin-top: 1rem;
+  }
 
-    .titulo-tarjeta{
-        font-size: 2.5rem;/* 40/16 */
-        font-weight: 600;
-        margin-top: 1.25rem;/* 20/16 */
-    }
-    .parrafo-tarjeta{
-        margin: .62rem auto;/* 10/16 */
-        max-width: 18.75rem;/* 330/16 */
-        font-size: 1.12rem;/* 18/16 */
-    }
+  .titulo-tarjeta {
+    font-size: 2.5rem; /* 40/16 */
+    font-weight: 600;
+    margin-top: 1.25rem; /* 20/16 */
+  }
+  .parrafo-tarjeta {
+    margin: 0.62rem auto; /* 10/16 */
+    max-width: 18.75rem; /* 330/16 */
+    font-size: 1.12rem; /* 18/16 */
+  }
 
-    .imagen-figura{
-        width: 8.75rem;/* 140/16 */
-        border-radius: 50%;
-    }
-    .boton-tarjeta{
-        background-color: transparent;
-        border: none;
-        a{
-            margin: 1.87rem 0 .62rem;/* x=(30/16) y=(10/16) */
-            padding: .62rem 1.87rem;/* x=(10/16) y=(30/16) */
-            font-size: 1.12rem;/* 18/16 */
-            font-weight: 500;
-            color: $color-fucsia;
-            border: none;
-            border-radius: 2.06rem;/* 33/16 */
-            background-color: $color-blanco;
-        }
-    }
+  .imagen-figura {
+    width: 8.75rem; /* 140/16 */
+    border-radius: 50%;
+  }
+  .boton-tarjeta {
+    background-color: transparent;
+    border: none;
+    padding: 0.62rem 1.87rem; /* x=(10/16) y=(30/16) */
+    font-size: 1.12rem; /* 18/16 */
+    font-weight: 500;
+    color: $color-fucsia;
+    border: none;
+    border-radius: 2.06rem; /* 33/16 */
+    background-color: $color-blanco;
+  }
 }
