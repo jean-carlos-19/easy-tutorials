@@ -12,6 +12,7 @@ module.exports = {
     watch:false,
     devtool:false,
     mode:"development",
+    
     devServer:{
         port:3000,
         static: {
