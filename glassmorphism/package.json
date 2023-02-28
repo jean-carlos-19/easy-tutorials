@@ -22,7 +22,7 @@
   "main": "index.js",
   "license": "MIT",
    "dependencies": {
-     "vanilla-tilt": "^1.7.2",
+    "vanilla-tilt": "^1.7.2",
     "@babel/core": "^7.19.0",
     "@babel/preset-env": "^7.19.0",
     "@csstools/postcss-trigonometric-functions": "^1.0.2",
